@@ -29,3 +29,6 @@ assets
 .vs/
 .vscode/
 /CppProperties.json
+/build
+/dist
+/CHIRP_egzumer.spec

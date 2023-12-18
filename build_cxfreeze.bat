@@ -1,0 +1,1 @@
+python setupCxFreeze.py build

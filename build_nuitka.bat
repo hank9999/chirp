@@ -1,0 +1,1 @@
+nuitka --standalone --include-package=chirp.drivers --include-module=wx._xml --include-module=wx --include-module=unittest --include-package-data=chirp.share --include-package-data=chirp.stock_configs --include-package-data=chirp.locale --windows-icon-from-ico=chirp\share\chirp.ico --output-filename=CHIRP_egzumer chirpwx.py

@@ -506,7 +506,7 @@ class ChirpMain(wx.Frame):
             return
 
         def _detach(event):
-            new = ChirpMain(None, title='CHIRP')
+            new = ChirpMain(None, title='CHIRP egzumer')
             self._editors.RemovePage(selected)
             eset.Reparent(new._editors)
             new.add_editorset(eset)
@@ -1094,9 +1094,9 @@ class ChirpMain(wx.Frame):
             is_memedit = isinstance(eset.current_editor, memedit.ChirpMemEdit)
             is_bank = isinstance(eset.current_editor, bankedit.ChirpBankEdit)
             can_edit = not is_network
-            self.SetTitle('CHIRP (%s)' % os.path.basename(eset.filename))
+            self.SetTitle('CHIRP egzumer (%s)' % os.path.basename(eset.filename))
         else:
-            self.SetTitle('CHIRP')
+            self.SetTitle('CHIRP egzumer')
 
         if self.current_editorset:
             radio = self.current_editorset.radio
@@ -1640,7 +1640,7 @@ class ChirpMain(wx.Frame):
 
     def _menu_about(self, event):
         pyver = sys.version_info
-        aboutinfo = 'CHIRP %s on Python %s wxPython %s' % (
+        aboutinfo = 'CHIRP egzumer %s\non Python %s\nwxPython %s' % (
             CHIRP_VERSION,
             '%s.%s.%s' % (pyver.major, pyver.minor, pyver.micro),
             wx.version())
@@ -1768,8 +1768,8 @@ def display_update_notice(version):
 
     CONF.set_int("last_update_check", int(time.time()), "state")
 
-    url = 'https://chirp.danplanet.com/projects/chirp/wiki/ChirpNextBuild'
-    msg = _('A new CHIRP version is available. Please visit the '
+    url = 'https://github.com/egzumer/uvk5-chirp-driver/releases'
+    msg = _('A new CHIRP egzumer version is available. Please visit the '
             'website as soon as possible to download it!')
     d = wx.MessageDialog(None, msg, _('New version available'),
                          style=wx.OK | wx.CANCEL | wx.ICON_INFORMATION)
