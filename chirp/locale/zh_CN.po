@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the CHIRP package.
 #
 # DuckSoft, BH2UEP <realducksoft@gmail.com>, 2022.
-# hank9999, 2023
+# hank9999, 2024
 msgid ""
 msgstr ""
 "Project-Id-Version: CHIRP\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-13 06:20+0900\n"
-"PO-Revision-Date: 2022-06-04 02:01+0800\n"
+"PO-Revision-Date: 2024-01-10 04:30+0800\n"
 "Last-Translator: hank9999\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
