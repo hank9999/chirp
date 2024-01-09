@@ -11,6 +11,6 @@ echo Building version: %NEW_VERSION%
 
 wsl bash -c "sed -i 's/CHIRP_VERSION = ".*"/CHIRP_VERSION = "'"%NEW_VERSION%"'"/g' chirp/__init__.py"
 
-pyinstaller --noconfirm --onefile --windowed --icon "chirp/share/chirp.ico" --name "CHIRP_egzumer" --hidden-import "wx" --hidden-import "wx._xml" --add-data "chirp/share;chirp/share/" --add-data "chirp/stock_configs;chirp/stock_configs/" --add-data "chirp/locale;chirp/locale/" --add-data "chirp/drivers;chirp/drivers/"  "chirpwx.py"
+pyinstaller --noconfirm --onefile --windowed --icon "chirp/share/chirp.ico" --name "CHIRP_K5CN" --hidden-import "wx" --hidden-import "wx._xml" --add-data "chirp/share;chirp/share/" --add-data "chirp/stock_configs;chirp/stock_configs/" --add-data "chirp/locale;chirp/locale/" --add-data "chirp/drivers;chirp/drivers/"  "chirpwx.py"
 git clean chirp/locale -fx
 git checkout chirp/locale

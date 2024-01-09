@@ -102,7 +102,7 @@ def with_session(fn):
 
 @with_session
 def check_for_updates(session, callback):
-    r = session.get("https://api.github.com/repos/egzumer/uvk5-chirp-driver/releases/latest")
+    r = session.get("https://api.github.com/repos/hank9999/uvk5-cn-chirp-driver/releases/latest")
     callback(r.json()['tag_name'])
 
 
