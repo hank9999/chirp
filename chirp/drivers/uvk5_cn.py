@@ -276,7 +276,7 @@ UVK5_POWER_LEVELS = [chirp_common.PowerLevel("Low",  watts=1.50),
 SCRAMBLER_LIST = ["off", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
 
 # channel display mode
-CHANNELDISP_LIST = ["Frequency", "Channel No", "Channel Name"]
+CHANNELDISP_LIST = ["频率", "信道号", "名称", "名称+频率"]
 # battery save
 BATSAVE_LIST = ["OFF", "1:1", "1:2", "1:3", "1:4"]
 
@@ -332,7 +332,7 @@ WELCOME_LIST = ["Full Screen", "Welcome Info", "Voltage"]
 KEYPADTONE_LIST = ["Off", "Chinese", "English"]
 LANGUAGE_LIST = ["Chinese", "English"]
 ALARMMODE_LIST = ["SITE", "TONE"]
-REMENDOFTALK_LIST = ["Off", "ROGER", "MDC"]
+REMENDOFTALK_LIST = ["关闭", "ROGER尾音", "MDC尾音", "MDC首音", "MDC首尾音", "MDC首音+ROGER"]
 RTE_LIST = ["Off", "100ms", "200ms", "300ms", "400ms",
             "500ms", "600ms", "700ms", "800ms", "900ms"]
 
