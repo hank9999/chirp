@@ -1769,8 +1769,9 @@ def display_update_notice(version):
     CONF.set_int("last_update_check", int(time.time()), "state")
 
     url = 'https://github.com/hank9999/uvk5-cn-chirp-driver/releases'
-    msg = _('有新的 CHIRP K5CN 版本, 请前往 Github 或 群文件下载')
-    d = wx.MessageDialog(None, msg, _('新版本可用!'),
+    msg = _('A new CHIRP egzumer version is available. Please visit the '
+            'website as soon as possible to download it!')
+    d = wx.MessageDialog(None, msg, _('New version available'),
                          style=wx.OK | wx.CANCEL | wx.ICON_INFORMATION)
     visit = d.ShowModal()
     if visit == wx.ID_OK:
