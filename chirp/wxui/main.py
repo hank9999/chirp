@@ -1640,7 +1640,7 @@ class ChirpMain(wx.Frame):
 
     def _menu_about(self, event):
         pyver = sys.version_info
-        aboutinfo = 'CHIRP K5CN %s\non Python %s\nwxPython %s' % (
+        aboutinfo = 'CHIRP K5CN %s\non Python %s\nwxPython %s\nmodified by hank9999' % (
             CHIRP_VERSION,
             '%s.%s.%s' % (pyver.major, pyver.minor, pyver.micro),
             wx.version())
