@@ -5,7 +5,7 @@ setup(name='chirp',
       description='A cross-platform cross-radio programming tool',
       packages=find_packages(include=["chirp*"]),
       include_package_data=True,
-      version='0.1',
+      version='0.2',
       url='https://chirp.danplanet.com',
       python_requires=">=3.7,<4",
       install_requires=[
