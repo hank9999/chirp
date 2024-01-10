@@ -1769,7 +1769,7 @@ def display_update_notice(version):
     CONF.set_int("last_update_check", int(time.time()), "state")
 
     url = 'https://github.com/hank9999/uvk5-cn-chirp-driver/releases'
-    msg = _('A new CHIRP egzumer version is available. Please visit the '
+    msg = _('A new CHIRP version is available. Please visit the '
             'website as soon as possible to download it!')
     d = wx.MessageDialog(None, msg, _('New version available'),
                          style=wx.OK | wx.CANCEL | wx.ICON_INFORMATION)
