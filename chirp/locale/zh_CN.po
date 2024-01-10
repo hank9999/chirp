@@ -957,8 +957,8 @@ msgid "Distance"
 msgstr "距离"
 
 #: ../wxui/clone.py:168
-msgid "不再对 %s 提示"
-msgstr ""
+msgid "Do not prompt again for %s"
+msgstr "不再对 %s 提示"
 
 #: ../wxui/bankedit.py:190
 msgid "Double-click to change bank name"
