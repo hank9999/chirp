@@ -795,7 +795,7 @@ msgstr "选择 %s 模拟亚音"
 
 #: ../wxui/memedit.py:1277
 msgid "Choose Cross Mode"
-msgstr "选择收发使用不同亚音"
+msgstr "选择收发不同亚音"
 
 #: ../wxui/memedit.py:1307
 msgid "Choose duplex"
@@ -880,7 +880,7 @@ msgstr "国家"
 
 #: ../wxui/memedit.py:524
 msgid "Cross mode"
-msgstr "收发使用不同亚音频"
+msgstr "收发不同亚音"
 
 #: ../wxui/clone.py:408
 msgid "Custom Port"
