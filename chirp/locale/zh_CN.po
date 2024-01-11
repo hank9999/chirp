@@ -2051,7 +2051,7 @@ msgstr "模拟亚音"
 
 #: ../wxui/memedit.py:886
 msgid "Tone Mode"
-msgstr "模拟亚音模式"
+msgstr "亚音模式"
 
 #: ../wxui/memedit.py:362
 msgid "Tone Squelch"
