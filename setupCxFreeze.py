@@ -16,7 +16,7 @@ executables = [
 ]
 
 setup(name='CHIRP K5CN',
-      version='0.3',
+      version='0.4',
       description='modfied CHIRP with UV-K5 CN firmware driver',
       options={'build_exe': build_options},
       executables=executables)
