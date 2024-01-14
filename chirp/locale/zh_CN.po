@@ -1695,6 +1695,9 @@ msgid ""
 "and functions that can damage your computer and your radio if not used with "
 "EXTREME care. You have been warned! Proceed anyway?"
 msgstr ""
+"注意！开发者模式仅供 CHIRP 项目的开发人员使用，或在开发人员的指导下使用。"
+"开发者模式启用了一些行为和功能，如果不小心使用，可能会损坏您的计算机和电台。"
+"风险已经说明，启用吗？"
 
 #: ../wxui/common.py:187
 msgid "Please wait"
