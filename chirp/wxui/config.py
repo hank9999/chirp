@@ -35,11 +35,20 @@ class ChirpConfig:
 
         cfg = os.path.join(basepath, name)
         if os.path.exists(cfg):
-            self.__config.read(cfg, encoding='utf-8')
+            try:
+                # try to read use default encoding
+                self.__config.read(cfg)
+            except UnicodeDecodeError:
+                try:
+                    # try to read use UTF-8 encoding
+                    self.__config.read(cfg, encoding="utf-8")
+                except UnicodeDecodeError:
+                    # try to read use GBK encoding
+                    self.__config.read(cfg, encoding="gbk")
 
     def save(self):
         cfg = os.path.join(self.__basepath, self.__name)
-        with open(cfg, "w", encoding='utf-8') as cfg_file:
+        with open(cfg, "w") as cfg_file:
             self.__config.write(cfg_file)
 
     def get(self, key, section, raw=False):
