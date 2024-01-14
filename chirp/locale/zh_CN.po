@@ -1788,7 +1788,7 @@ msgstr "重命名bank"
 
 #: ../wxui/main.py:925
 msgid "Reporting enabled"
-msgstr "数据上报已启用"
+msgstr "启用数据上报"
 
 #: ../wxui/main.py:1674
 msgid ""
