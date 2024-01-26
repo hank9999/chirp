@@ -1,0 +1,1 @@
+msgfmt chirp\locale\zh_CN.po -o chirp\locale\zh_CN\LC_MESSAGES\CHIRP.mo
